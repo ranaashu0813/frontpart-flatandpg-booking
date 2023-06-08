@@ -1,0 +1,14 @@
+@media only screen and (max-width:600px){
+    .cardouter{
+        display: flex;
+        flex-direction: column;
+        margin:3px;
+    }
+    .card-title{
+       
+    margin-left: 4px !important;
+    }
+    .card-text{
+        margin-left: 4px !important ;
+    }
+}

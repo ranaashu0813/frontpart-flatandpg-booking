@@ -1,0 +1,58 @@
+@media only screen and (max-width:600px) {
+    .whyinfo{
+        flex-direction: column;
+        height:55vh !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        overflow-x: hidden;
+        overflow: hidden;
+        padding: 0px;
+        
+    }
+    .info{
+        font-size: 20px !important;
+    }
+    .infop{
+        font-size: xx-small !important;
+        width: 100vw;
+        text-align: center;
+    }
+    .ip{
+        height:40vh !important;
+        width: 80vw !important;
+        margin-left: 2rem;
+        margin-top: 2rem !important;
+    }
+    .ipp{
+        margin-left: 0rem !important;
+        margin-top: 2rem !important;
+        height:40vh !important;
+        width: 80vw !important;
+        margin-left: 2rem !important; 
+    }
+    .ipf{
+        height:40vh !important;
+        width: 80vw !important;
+        margin-left: 2rem !important;
+        margin-top: -1rem !important;
+    }
+    .mm{
+        margin: 0px !important;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .whyinfo{
+        height:30rem !important;
+    }
+    .info{
+        font-size: 30px !important;
+    }
+    .infop{
+        font-size: small !important;
+    }
+    .ip{
+        height:40vh !important;
+        width: 80vw !important;
+    }
+}

@@ -1,0 +1,33 @@
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+
+}
+ .map{
+height: 60vh;
+display: none;
+margin: 2rem;
+ }
+
+.Maincontent{
+    flex: 2;
+}
+
+
+
+@media only screen and (max-width:900px){
+    .Crousel1{
+        display: none;
+
+    }
+    .map{
+        display: block;
+    }
+    
+}

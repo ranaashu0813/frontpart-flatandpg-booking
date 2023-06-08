@@ -1,0 +1,161 @@
+@media only screen and (max-width:1024px){
+
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        height: max-content !important;
+        
+    }
+.box-text{
+    width: 100% !important;
+}
+.info{
+        display: none;
+}
+.carousel-inner{
+    height: 70vh !important;
+}
+}
+
+.search{
+position:absolute;
+top: 80vh;
+left: 5rem;
+}
+.btn3{
+font-size: 1.5rem;
+color: black;
+border-radius: 1rem;
+
+}
+.input{
+border-radius: 1rem;
+font-size: 1.5rem;
+width: 20vw;
+height: 7vh;
+}
+.ser{
+width: 75%;
+border-radius: 1rem;
+background-color: #7FFFD4;
+cursor: pointer;
+font-size: larger;
+
+}
+
+.ser>div{
+margin-left: 1rem;
+}
+@media only screen and (max-width:900px){
+    .input::placeholder{
+        font-size:1.3rem;
+    }
+}
+@media only screen and (max-width:800px){
+    .input::placeholder{
+        font-size:1.2rem;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .input::placeholder{
+        font-size:1rem;
+    }
+    .search .btn3{
+        width: 6rem !important;
+        height: 3rem !important;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:730px){
+    .input::placeholder{
+        font-size:1rem;
+    }
+    .search .input{
+       width: 16rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        height: 45rem !important;
+        font-size: small;
+        
+    }
+.box-text{
+    width: 100% !important;
+}
+.info{
+        display: none;
+}
+.box-container img{
+    width: 10rem !important;
+}
+
+.search{
+    position:absolute;
+    top: 85vh;
+    left: 2rem;
+}
+.btn3{
+    font-size: 1rem;
+    color: black;
+    border-radius: 1rem;
+    
+}
+.search{
+    margin-bottom: 5rem !important;
+}
+.input{
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: 50vw;
+    height: 3vh;
+    
+}
+.text-wrap{
+    margin-top: 2rem;
+}
+}
+
+@media only screen and (max-width:420px){
+
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        height: max-content !important;
+        font-size: small;
+        
+        
+    }
+.box-text{
+    width: 100% !important;
+        padding-top: 1rem !important;
+}
+.info{
+        display: none;
+}
+.box-container img{
+    width: 30vw!important;
+    height: 8rem !important;
+}
+.search .btn3{
+    width: 4rem !important;
+    height: 3rem !important;
+    font-size: 1rem;
+
+}}
+@media only screen and (max-width:420px){
+    .search .btn3{
+        margin-top: 0.5rem;
+        width: 15rem !important; 
+    }
+    .text-wrap{
+        padding-top: 10rem !important;
+    }
+}

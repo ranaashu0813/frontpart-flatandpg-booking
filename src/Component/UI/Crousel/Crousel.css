@@ -1,0 +1,30 @@
+.carousel {
+    margin: auto;
+    top: 10px;
+    border-radius: 20px;
+  }
+
+  .img{
+    border-radius: 20px;
+  }
+
+  .container1{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  
+.container2{
+  display: flex;
+  width: 100%;
+}
+
+.crousel1{
+  flex: 1;
+}
+
+.Maincontent{
+  flex: 3;
+}
+  
